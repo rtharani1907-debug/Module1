@@ -79,3 +79,51 @@ print(char2)
 ## Result
 Therefore to write a Python program that prints the characters 'T' and 'a' using character literals is compiled and the output is verified successfully.
 
+# 🧮 Datatypes-Complex Number Creation in Python
+
+## 🎯 Aim
+To write a Python program that reads two integers, creates a complex number using them, and then prints the complex number along with its real and imaginary parts.
+
+## 🧠 Algorithm
+1. Read an integer input from the user and assign it to the variable `a` (real part).
+2. Read another integer input from the user and assign it to the variable `b` (imaginary part).
+3. Create a complex number `x` using the `complex(a, b)` function.
+4. Print the complex number `x`.
+5. Print the real part of `x` using `x.real`.
+6. Print the imaginary part of `x` using `x.imag`.
+
+## 💻 Program
+```
+a=int(input()) 
+b=int(input()) 
+x=complex(a,b) 
+print(x) 
+print(x.real) 
+print(x.imag)
+```
+## Output
+<img width="1095" height="268" alt="Screenshot 2026-05-30 095652" src="https://github.com/user-attachments/assets/e348460b-0393-4a28-9828-0ef42169cf06" />
+
+## Result
+Thus the prgram has been successfully executed.
+
+# Datatypes-Read and Print a String in Python
+
+## 🎯 Aim
+To write a Python program to read a string from the user and then print it.
+
+## 🧠 Algorithm
+1. Assign a variable named `men_stepped_on_the_moon`.
+2. Use `input()` to read a string from the user and store it in the variable.
+3. Print the value stored in the variable.
+
+## 🧾 Program
+```
+men_stepped_on_the_moon=input()
+print(men_stepped_on_the_moon)
+
+```
+## Output
+<img width="1048" height="315" alt="Screenshot 2026-05-30 095845" src="https://github.com/user-attachments/assets/9db3b416-15cb-4735-b9a4-cccfcb82dc77" />
+## Result
+Thus, the program has been successfully executed.
